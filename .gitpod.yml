@@ -1,9 +1,9 @@
 # Commands to start on workspace startup
 tasks:
-  - name: Setup & Build
-    before: yarn global add express
-    init: yarn install
-    command: yarn build
+  - name: Interview
+    before: npm install
+    init: npm install --save-dev jest
+    command: npm build
 
 # Ports to expose on workspace startup
 ports:
